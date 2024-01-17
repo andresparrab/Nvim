@@ -1,4 +1,3 @@
--- Basic basic section with mason, lsp, icons and lua diagnostics --
 require "user.launch"
 require "user.options"
 require "user.keymaps"
