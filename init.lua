@@ -10,5 +10,3 @@ spec "user.schemastore"
 spec "user.lsconfig"
 spec "user.cmp"
 require "user.lazy"
-
--- 
