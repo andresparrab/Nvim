@@ -76,6 +76,7 @@ function M.config()
     "bashls",
     "jsonls",
     "yamlls",
+    "omnisharp",
   }
 
   local default_diagnostic_config = {

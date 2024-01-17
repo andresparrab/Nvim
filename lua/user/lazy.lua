@@ -11,7 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- we are goin to setup all specs to lazy.setup the variable LAZY_PLUGIN_SPEC
+-- we are goin to setup all specs to lazy.setup to the variable LAZY_PLUGIN_SPEC
 require("lazy").setup {
   spec = LAZY_PLUGIN_SPEC,
   install = {
